@@ -1,0 +1,51 @@
+.similar-product-container {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  width: 350px;
+  font-family: 'Roboto';
+}
+
+.similar-image {
+  height: 200px;
+  width: 300px;
+}
+
+.similar-product-title {
+  font-size: 24px;
+  color: #1e293b;
+}
+
+.similar-product-brand {
+  font-size: 18px;
+  color: #616e7c;
+}
+
+.similar-product-price-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.similar-product-price {
+  color: #1e293b;
+  font-size: 18px;
+}
+
+.similar-product-rating-container {
+  height: 20px;
+  width: 50px;
+  border-radius: 5px;
+  background-color: #3b82f6;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.similar-product-rating {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.similar-star-image {
+  color: #ffffff;
+  height: 10px;
+}
